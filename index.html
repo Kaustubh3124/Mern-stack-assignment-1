@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        header, section, footer {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="tel"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            background-color: #5cb85c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        form button:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Our Website!</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Our Website</h2>
+        <p>
+            Welcome to our online hub! This website serves as a comprehensive resource, designed to provide valuable information and services to our visitors. We strive to offer a user-friendly experience, making it easy for you to navigate and find what you're looking for. Our mission is to deliver high-quality content and reliable solutions, catering to a diverse range of interests and needs. Whether you're here to learn, explore, or connect, we hope you find your time with us both informative and enjoyable.
+        </p>
+    </section>
+
+    <section id="image">
+        <h2>Featured Image</h2>
+        <img src="https://via.placeholder.com/600x300?text=Placeholder+Image" alt="A beautiful placeholder image representing our services.">
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Web Design & Development</li>
+            <li>Graphic Design</li>
+            <li>Content Creation</li>
+            <li>Digital Marketing</li>
+            <li>SEO Optimization</li>
+        </ul>
+    </section>
+
+    <section id="video">
+        <h2>Watch Our Introduction Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="price-list">
+        <h2>Price List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Web Design (Basic)</td>
+                    <td>$500</td>
+                </tr>
+                <tr>
+                    <td>Graphic Design (Logo)</td>
+                    <td>$150</td>
+                </tr>
+                <tr>
+                    <td>Content Creation (per article)</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>Digital Marketing (Monthly)</td>
+                    <td>$750</td>
+                </tr>
+                <tr>
+                    <td>SEO Optimization (Monthly)</td>
+                    <td>$300</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact-form">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contact us at: info@ourwebsite.com | Phone: +123 456 7890 | Address: 123 Main Street, Anytown, USA</p>
+    </footer>
+
+</body>
+</html>
